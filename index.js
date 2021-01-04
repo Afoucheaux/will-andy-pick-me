@@ -20,3 +20,21 @@
    "Outlook not so good",
    "Very doubtful"
  ];
+ 
+element = document.querySelector(selectors);
+var question = document.querySelector("#your-question");
+var answerButton = document.querySelector("#get-answer");
+var clearButton = document.querySelector(".clear");
+var eightBallImg = document.querySelector("#eight-ball");
+
+answerButton.addEventListener("click", getAnswer);
+
+function hide(element) {
+  element.classList.add('hidden');
+}
+
+function getAnswer() {
+  event.preventDefault();
+  hide(eightBallImg);
+
+}

@@ -46,7 +46,7 @@ body {
  margin: 0;
 }
 
-.get-answer {
+#get-answer {
   color: white;
   background-color: #607AA0;
   padding-left: 140px;
